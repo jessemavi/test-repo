@@ -11,4 +11,16 @@ jobs:
     runs-on: ${{ vars.RUNNER }}
     steps:
       - name: "Echo Runner"
-        run: echo "Runner - ${{ vars.TESTSIZE256KB }}"
+        run: echo "Runner - ${{ vars.TESTSIZE47KB1 }}"
+      - name: "Echo Runner"
+        run: echo "Runner - ${{ vars.TESTSIZE47KB2 }}"
+      - name: "Echo Runner"
+        run: echo "Runner - ${{ vars.TESTSIZE47KB3 }}"
+      - name: "Echo Runner"
+        run: echo "Runner - ${{ vars.TESTSIZE47KB4 }}"
+      - name: "Echo Runner"
+        run: echo "Runner - ${{ vars.TESTSIZE47KB5 }}"
+      - name: "Echo Runner"
+        run: echo "Runner - ${{ vars.TESTSIZE47KB6 }}"
+      - name: "Echo Runner"
+        run: echo "Runner - ${{ vars.TESTSIZE47KB7 }}"
